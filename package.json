@@ -1,0 +1,27 @@
+{
+  "name": "interview-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for new grad job preparation with daily internships, behavioral questions, resume feedback, and more",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node deploy-commands.js",
+    "keep-alive": "node keep-alive.js"
+  },
+  "keywords": ["discord", "bot", "interview", "jobs", "new-grad", "internships"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "@google/generative-ai": "^0.1.3",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
